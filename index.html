@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <br>
+        <br>
+ <div class="container">
+     <div class="title">Job Application Form</div>
+     <form>
+         <label>Full name:
+             <br>
+         <input 
+          id="name"
+          type="text"
+          required placeholder="Write your name"></label>
+          <br>
+          <br>
+          <label>Email:
+              <br>
+          <input 
+           id="email"
+           type="email"
+           required placeholder="Write your email"></label>
+           <br>
+           <br>
+        <label>Position:
+            <br>
+           <select required
+            id="position">
+            <option value="Disabled selected">Select a position</optoin>
+            <option value="software engineer">Software Engineer</option>
+            <option value="security engineer">Security Engineer</option>
+            <option value="ai engineer">AI Engineeer</option>
+            <option value="devops manager">DevOps Manager</option>
+            </select>
+            </label>
+            <br>
+            <br>
+        <fieldset class="radio-group">
+            <legend>Availability</legend> 
+            <label>Full time
+            <input 
+              type="radio"
+              name="availability"></label>
+            
+            <label>Part time
+            <input 
+             type="radio"
+             name="availability"></label>
+            <label>Freelancer
+            <input 
+             type="radio"
+             name="availability"></label>
+        </fieldset>
+        <br>
+        <br>
+        <label>Why do you want this job?
+            <br>
+        <textarea 
+         id="message"
+         required placeholder="Write your motivation">
+         </textarea>
+         </label>
+         <br>
+         <br>
+        <button type="submit" class="submit">Submit your application</button>
+        </form>
+
+
+</body>
+</html>
